@@ -199,3 +199,18 @@ button{
                 0 6px 0 hsl(54, 100%, 12%),
                 0 7px 0 hsl(54, 100%, 10%);
     }
+
+
+
+/* ************************
+        Gradient Button
+*************************** */
+
+.grad-btn-1{
+    position: relative;
+    padding: 15px 30px;
+    border: 10px linear-gradient(45deg, red, blue);
+    font-size: 1.4rem;
+
+    background: linear-gradient(to right, red, purple);
+}
