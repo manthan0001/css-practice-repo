@@ -203,14 +203,55 @@ button{
 
 
 /* ************************
-        Gradient Button
+        Gradient Button 1
 *************************** */
 
 .grad-btn-1{
     position: relative;
-    padding: 15px 30px;
-    border: 10px linear-gradient(45deg, red, blue);
+    z-index: 1;
+    padding: 20px 40px;
+    display: inline-block;
     font-size: 1.4rem;
+    box-sizing: border-box;
 
-    background: linear-gradient(to right, red, purple);
+    background-color: #e7eef1;
+    border: solid 10px transparent;
+    border-image: linear-gradient(to top right, orangered, yellow);
+    border-image-slice: 1;
+    color: orangered;
+    transition: all 0.3s ease-in-out;
 }
+
+    .grad-btn-1:hover{
+        background-size: 100%;
+        background-image: linear-gradient(to top right, orangered, yellow);
+        color: white;
+    }
+
+
+/* ************************
+        Gradient Button 2
+*************************** */
+
+.grad-btn-2{
+    position: relative;
+    z-index: 1;
+    padding: 20px 40px;
+    display: inline-block;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+
+    background-color: #e7eef1;
+    border: solid 5px transparent;
+    border-image: linear-gradient(to right, orangered, transparent);
+    border-image-slice: 1;
+    color: orangered;
+    transition: all 0.3s ease-in-out;
+}
+
+    .grad-btn-2:hover{
+        
+        background-image: linear-gradient(to right, orangered, transparent);
+        color: white;
+        border-right-style: none;
+    }
