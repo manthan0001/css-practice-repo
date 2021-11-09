@@ -4,9 +4,7 @@ h4{
     font-size: 1.4rem;
 }
 
- div{
-     align-items: center;
- }
+
 body{
     display: flex;
     justify-content: center;
@@ -19,16 +17,18 @@ body{
     padding: 10px;
 }
 
+
 button{
     
-    
+    left:50px;
     position: relative;
     margin: 20px 50px 30px 50px;
     cursor: pointer;
     font-weight: bold;
 }
-
-
+/* section{
+    left: 40px;
+} */
 
 /* ************************
     Facebook Style button
