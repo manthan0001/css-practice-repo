@@ -1,0 +1,7 @@
+.register-wrapper{
+    background: -webkit-linear-gradient(135deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+    position: relative;
+    z-index: 3;
+    padding:100px 200px;
+    color: #999;
+}
